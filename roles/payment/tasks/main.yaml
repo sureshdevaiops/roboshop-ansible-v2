@@ -3,7 +3,7 @@
     name: common
     tasks_from: app-setup
 
-- name: python  setup
+- name: python setup
   include_role:
     name: common
     tasks_from: python
@@ -13,7 +13,7 @@
     name: common
     tasks_from: systemd-setup
 
-- name: restart application 
+- name: restart application
   include_role:
-    name: common  
+    name: common
     tasks_from: restart
